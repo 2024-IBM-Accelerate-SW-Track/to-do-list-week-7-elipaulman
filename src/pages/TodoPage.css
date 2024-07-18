@@ -1,4 +1,13 @@
 .Home {
-    background-color: ghostwhite;
-    height: 100vh;
-  }
+  background: linear-gradient(to right, #8dc4b5, #3399cc, #045bfc);
+  height: 100vh;
+}
+
+.TodoList {
+  background: linear-gradient(to right, #8dc4b5, #3399cc, #045bfc);
+  height: 100vh;
+}
+
+.TodoList, .TodoList h1, .TodoList div {
+  color: white;
+}

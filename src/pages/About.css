@@ -10,11 +10,13 @@
 
 .left {
   left: 0;
-  background-color: #0f62fe;
+  background: linear-gradient(to right, #8dc4b5, #3399cc, #045bfc);
 }
 
 .right {
   right: 0;
+  background-color: #424242;
+  color: white;
 }
 
 .centered {
@@ -27,16 +29,37 @@
 
 .name_title {
   font-size: 48px;
-  color: black;
+  color: white;
   text-align: left;
   padding-bottom: 20px;
 }
 
 .brief_description {
   text-align: left;
+  font-size: 20px;;
 }
 
 .profile_image {
   width: 500px;
   height: auto;
+}
+
+.profile_image {
+  width: 500px;
+  height: auto;
+  transition: transform .2s;
+  object-fit: cover;
+}
+
+.profile_image:hover {
+  transform: scale(1.1);
+}
+
+.profile_image {
+  width: 90%;
+  height: 20%;
+  max-height: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 4%;
+  margin: 10px
 }
