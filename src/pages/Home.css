@@ -1,4 +1,9 @@
 .Home {
-  background-color: ghostwhite;
+  background: linear-gradient(to right, #8dc4b5, #045bfc);
   height: 100vh;
+  color: white;
+}
+
+.button{
+  background-color: transparent;
 }

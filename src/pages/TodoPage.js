@@ -7,7 +7,7 @@ export default class TodoPage extends Component {
 
      render() { 
       return (
-        <div className="Todo List">
+        <div className="TodoList">
           <h1>Todo List </h1>
           <div><ShowTodos/><br></br></div>
           <div><SearchTodo/></div>
